@@ -1,3 +1,23 @@
+####################################################################################
+# Paper: Distributional conformal prediction
+# Authors: V. Chernozhukov, K. Wuthrich, Y. Zhu,PNAS,118(48)
+##Relevant github:
+#https://github.com/kwuthrich/Replication_DCP
+###################################################################################
+####The above github is source material for the functions for the different 
+###methods-DCP/DCP-QR,DCP-opt,CQR,CQR-m,CQR-r and CP-reg
+#The functions for the methods, the function to create train,calibration
+##and test data, the loop to check for singularity of the matrix as well 
+##as well as the function for quantile bins have been taken from the github
+##and used for this thesis.
+#The rest of the code(data generation,setting up replications, additional plots,descriptive 
+#analysis) has been written by me
+########################################################################################
+#######################################################################################
+#########################################################
+###loading required packages
+
+
 ##Star
 library(tidyverse)
 library(dplyr)
